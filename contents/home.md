@@ -4,8 +4,11 @@ I'm currently pursuing a Master's degree in XX at the Department of XX, XX Unive
 
 #### Email  
 <code>2293611486@qq.com</code>  
+
 <code>kuangjunhua_cn@163.com</code>
+
 <code>M23085400011@stu.hut.edu.cn</code>
+
 <code>KUANGJUNHUA551@pingan.com.cn</code>
 
 #### Education  
