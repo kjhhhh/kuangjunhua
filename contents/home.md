@@ -1,4 +1,7 @@
 [![XX](https://img.shields.io/badge/XX-github-blue?logo=github)](https://kjhhhh.github.io/)
+[![xx](https://img.shields.io/badge/DBLP-Profile-blue?logo=semanticweb)](https://dblp.org/pid/392/3273.html)
+[![xx](https://img.shields.io/badge/Semantic_Scholar-Profile-darkblue?logo=semanticscholar)](https://www.semanticscholar.org/author/Junhua-Kuang/2349851514)
+[![xx](https://img.shields.io/badge/ORCID-0000--0001--9509--0755-green?logo=orcid)](https://orcid.org/my-orcid?orcid=0009-0005-9955-8913)
 
 在校荣誉：优秀毕业生、学习标兵四次、三好学生两次、优秀共青团员两次、优秀学生干部两次、抗疫尖兵、株洲市社会实践优秀个人、“品学兼优”奖学金、国家奖学金、校一等奖学金若干次
 
