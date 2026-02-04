@@ -1,4 +1,4 @@
-[![XX](https://img.shields.io/badge/XX-github-blue?logo=github)](https://github.com/XX)
+[![XX](https://img.shields.io/badge/XX-github-blue?logo=github)](https://kjhhhh.github.io/)
 
 在校荣誉：优秀毕业生、学习标兵四次、三好学生两次、优秀共青团员两次、优秀学生干部两次、抗疫尖兵、株洲市社会实践优秀个人、“品学兼优”奖学金、国家奖学金、校一等奖学金若干次
 
