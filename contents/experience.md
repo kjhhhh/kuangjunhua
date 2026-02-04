@@ -11,7 +11,7 @@ Worked on the development and optimization of large-scale recommendation systems
 --- -->
 
 ### **软件工程师实习生**  
-**2024年4月 – 至今 | 湖南天桥嘉成智能科技有限公司**<img class="shadow" src="../static/assets/img/TQJC-logo.png">
+**2024年4月 – 至今 | 湖南天桥嘉成智能科技有限公司**<img class="shadow" src="![../static/assets/img/TQJC-logo.png](https://github.com/kjhhhh/kuangjunhua/blob/main/static/assets/img/TQJC-logo.jpg)">
 
 负责工控上位机中控系统的开发与优化，专注于算法改进和系统效率提升。参与实时船舶根文件数据解析工具的构建，并优化工具解析流程，以提升解析效果。
 
@@ -27,7 +27,7 @@ Worked on the development and optimization of large-scale recommendation systems
 ---
 
 ### **安全开发工程师助理**  
-**2022年6月 – 2022年12月 | 平安证券股份有限责任公司**  <img class="shadow" src="../static/assets/img/pingan-logo.png">
+**2022年6月 – 2022年12月 | 平安证券股份有限责任公司**  <img class="shadow" src="![../static/assets/img/pingan-logo.png](https://github.com/kjhhhh/kuangjunhua/blob/main/static/assets/img/pingan-logo.jpg)">
 
 负责中后台业务信用流程的开发和优化。
 
