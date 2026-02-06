@@ -11,7 +11,7 @@ Worked on the development and optimization of large-scale recommendation systems
 --- -->
 
 ### **软件工程师实习生**  
-**2024年4月 – 至今 | 湖南天桥嘉成智能科技有限公司**<img class="shadow" src="![../static/assets/img/TQJC-logo.png](https://github.com/kjhhhh/kuangjunhua/blob/main/static/assets/img/TQJC-logo.jpg)">
+**2024年4月 – 至今 | 湖南天桥嘉成智能科技有限公司**<img class="shadow" src="https://github.com/kjhhhh/kuangjunhua/blob/main/static/assets/img/TQJC-logo.jpg">
 
 负责工控上位机中控系统的开发与优化，专注于算法改进和系统效率提升。参与实时船舶根文件数据解析工具的构建，并优化工具解析流程，以提升解析效果。
 
@@ -27,7 +27,7 @@ Worked on the development and optimization of large-scale recommendation systems
 ---
 
 ### **安全开发工程师助理**  
-**2022年6月 – 2022年12月 | 平安证券股份有限责任公司**  <img class="shadow" src="![../static/assets/img/pingan-logo.png](https://github.com/kjhhhh/kuangjunhua/blob/main/static/assets/img/pingan-logo.jpg)">
+**2022年6月 – 2022年12月 | 平安证券股份有限责任公司**  <img class="shadow" src="https://github.com/kjhhhh/kuangjunhua/blob/main/static/assets/img/pingan-logo.jpg">
 
 负责中后台业务信用流程的开发和优化。
 
@@ -45,6 +45,8 @@ Worked on the development and optimization of large-scale recommendation systems
 - 技术要点：后端：SpringBoot基础框架+MyBatis-plus数据库框架+Shiro权限框+Jwt+Swagger-ui文档框架+Redis缓存管理。前端：Vue3+JavaScript+Element-plus组件库，其它技术：Druid连接池、Logback日志工具、PoiExcel工具、Quartz定时任务框架、Lombok简化代码插件、七牛云云端存储。
 - 项目描述：1、设计并实现多源数据融合：支持PubMed、美国专利数据库等数据源的查询、搜索和下载;2、基于LayoutParser构建文献解析管道：实现非结构化PDF文献的自动解析、半结构化存储（JSON）及网页可视化呈现；3、实体识别和关系提取：采用BioBERT等深度学习模型，精准识别生物医学实体（基因、疾病、药物等）及其关系，提高信息挖掘的准确性；4、基于用户交互的规则管道配置模型:用户可根据自己需求自定义配置信息挖掘方式，以得到期望的信息。5、个人专属收藏库：基于Redis BitMap + Redisson实现用户年度收藏记录的统计，通过本地缓存、返回值优化和位运算提升接口性能，减少内存占用达百倍量级。6、通过定时任务Quartz框架定时异步更新报告数据至七牛云OSS存储，并通过用户ID+时间戳确保数据更新的准确性。7、通过接入HotKey并配置热Key探测规则来自动缓存热门文章，防止瞬时流量击垮数据库。8、通过PM2守护进程管理并部署项目，并通过Nginx配置反向代理解决跨域问题。9、登录以及身份验证使用JWT令牌技术完成用户认证，通过ThreadLocal配合拦截器完成对请求token的校验，判断用户是否处于登录状态，并解决HTTP请求无状态的问题。
 
+---
+
 ### **智能物料分拣系统 独立研发模块#**
 - 开发背景：随着工业自动化的升级，传统人工分拣在钢板加工等场景中效率低、差错率高。为提升作业效率、降低人工成本，湖南天桥嘉成公司开发了一套基于 C# 的工业级智能物料分拣系统，整合了 .gen 文件解析、喷码控制、桁架控制、图像生成与路径规划等多个子系统，实现了图文数据驱动下的全流程自动化分拣与喷印。
 - 任务需求：开发一套集成化的智能物料分拣系统，其中包含.gen文件解析模块、喷码控制系统以及物料分拣模块，能够实现以下功能:
@@ -57,6 +59,8 @@ Worked on the development and optimization of large-scale recommendation systems
 - 项目描述：1、工业图纸文件解析：支持大规模钢板切割任务描述文件的解析（GEN格式），按照“GENERAL_DATA”、“PART_DATA”、“MARKING_DATA”、“IDLE_DATA”、“BURNING_DATA”结构，使用C#自定义解析器提取原材料信息、零件结构及加工路径，构建结构化数据模型（如GeneralInfo、PartObject、Contour），用于后续制图与指令生成，支持导出DXF、PNG、G-Code、JSON、TXT，便于调试与数据对齐；2、图形图像生成与切割：基于文本内容、坐标、角度等从任务JSON中生成高分辨率黑白图像（SVG/PNG），实现“智能图像切割”算法，考虑喷码头宽度、二维码边界避让，防止图像被误切，切割图自动编号并与任务数据绑定，供喷码任务使用；3、喷码控制系统：向喷码头设备发送任务图像及位置信息，支持多喷码头协同作业，兼容一边喷一边动态加载图像（边喷边传），接入实时任务反馈与异常处理机制，任务完成后自动归档日志；4、桁架控制系统：通过MQTT通讯协议控制桁架移动定位（支持自动与手动巡边），实时反馈桁架位置信息，确保喷印坐标精度，实现多模式巡边策略（自动、手动A/B、半自动），兼容不同作业场景。5、G-Code指令生成：根据Contour类型生成对应NC指令，如G00空程移动（IDLE轮廓）、G01直线加工（MARKING/CUT轮廓）、G02/G03圆弧加工（基于半径+圆心）、M09/M10喷头控制（开启/关闭），任务路径依据S形扫描逻辑规划，确保连续高效喷印；6、DXF/PNG导出：使用netDxf库构建喷印图层（红蓝绿区分），同时导出PNG图像用于人机界面预览、比对图纸，支持图层命名、图元标注、路径编号等细节增强。
 - 项目效果:1、实现了完整的从 .gen 文件 → 工业轮廓 → 喷印路径 → G-code → 可视化结果 的闭环链路；2、支持对接多个喷码头设备并行作业，喷印效率提升 60%+；3、支持任务调度动态下发、实时异常处理和路径优化机制；4、全模块 C# 实现，代码结构清晰、易于扩展与维护；5、系统支持图文任务、二维码、批次号、引导标记等多种喷印任务，适配多元制造场景。
 
+---
+
 ### **多云推广平台(犀利云平台) 4W 参与**
 - 开发背景：随着云计算市场的快速发展，不同云服务提供商（如阿里云、华为云、谷歌云、AWS等）的产品和服务日益丰富，但用户在选择和购买云服务时面临信息不透明、价格不统一、功能测试复杂等问题。为了解决这些问题，受公司委托，湖南工业大学承担了“多云推广平台”的研发任务，旨在为用户提供统一的云服务比价、功能测试、购买推荐及一站式购买服务。
 - 任务需求：构建一个集成多家云厂商信息的智能平台，提供透明的云服务比价、性能测试、拨测监控和一站式购买服务，提升用户的云计算使用体验。
@@ -64,6 +68,8 @@ Worked on the development and optimization of large-scale recommendation systems
 - 技术要点：后端：SpringBoot基础框架+MyBatis-plus数据库框架+Shiro权限框+Jwt+Swagger-ui文档框架+Redis缓存管理，前端：Ant-design-vue+Vue+Webpack，其它技术：Druid连接池、Logback日志工具、PoiExcel工具、Quartz定时任务框架、Lombok简化代码插件。
 - 项目描述：1、网站门户开发：采用Vue + Ant-design-vue构建交互式UI，提升用户体验。实现云服务比价模块，支持阿里云、华为云、AWS等多家云厂商的实时比价。设计并实现云性能测试和拨测模块，支持HTTP检测、DNS检测、Ping检测等功能。2、网站后端开发：采用SpringBoot + MyBatis-plus搭建高效后端架构，提升系统稳定性和可扩展性。集成Redis缓存，优化数据访问速度，提升用户查询体验。实现Shiro + Jwt认证体系，增强平台安全性。3、后台管理开发：参与需求分析、系统设计，并编写Swagger API文档，提高前后端协作效率。负责系统测试和上线部署，保障平台稳定运行。
 项目效果: 1、云服务对比效率提升50%，帮助用户快速选择最优云方案。2、提高购买转化率，用户可直接通过平台完成云服务购买，提升企业销售效率。3、降低技术门槛，非专业用户也能轻松理解云计算产品，拓宽市场覆盖面。
+
+---
 
 ### **平安证券安全管理平台SLICK-5.10-v4 独立开发**
 - 开发背景：由于平安集团考核SDLC，项目全生命周期(需求、设计、开发、测试、上线)需要安全人员进行介入，但公司jira无法满足要求，同时安全人员不足导致无法在所有的系统的所有版本进行全部参与其中，即证券系统线下化安全管理无法满足发版频繁、漏洞繁多、安全考核等问题，推出了基于线上漏洞管理、全系统接入SDLC、进行智能多维数字化大屏展示、省时高效的线上安全管理平台SLIICK。
