@@ -27,7 +27,7 @@ Worked on the development and optimization of large-scale recommendation systems
 ---
 
 ### **安全开发工程师助理**  
-**2022年6月 – 2022年12月 | 平安证券股份有限责任公司** | <img class="shadow" src="static/assets/img/pingan-logo.jpg">
+**2022年6月 – 2022年12月 | 平安证券股份有限责任公司** | <img class="shadow" src="static/assets/img/Pingan-logo.jpg">
 
 负责中后台业务信用流程的开发和优化。
 
